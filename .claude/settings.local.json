@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node --check src/scripts/scrapeNow.js src/scripts/seedSeason.js src/routes/scrape.js src/config/index.js src/server.js)",
+      "Bash(node -e ' *)",
+      "Bash(pip install *)",
+      "Bash(python -m streamlit --version)",
+      "Bash(npm --version)",
+      "Bash(npx @angular/cli version)",
+      "Bash(rm -rf frontend)",
+      "Bash(npx @angular/cli new frontend --routing=true --style=scss --skip-git=true --skip-tests=true --package-manager=npm)",
+      "Bash(npx ng *)",
+      "Bash(curl -s http://localhost:8080/api/v1/)",
+      "Bash(curl -sv http://localhost:8080/api/v1/)",
+      "Bash(npm create *)",
+      "Bash(npm run *)",
+      "Bash(npm test *)",
+      "Bash(curl -s http://localhost:8080/api/v1)",
+      "Bash(curl -s \"http://localhost:8080/api/v1/select/teams\")",
+      "Bash(curl -s \"http://localhost:8080/api/v1/players/2544/stats?season=2024-25\")",
+      "Bash(curl -s \"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/standings\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d, indent=2\\)\\)\")",
+      "Bash(curl -s \"https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&seasontype=3\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); k=list\\(d.keys\\(\\)\\); print\\(k\\); ch=d.get\\('children',[]\\); print\\('children:', len\\(ch\\)\\); [print\\(c.get\\('name'\\), c.get\\('abbreviation'\\), len\\(c.get\\('standings',{}\\).get\\('entries',[]\\)\\)\\) for c in ch[:3]]\")",
+      "Bash(pkill -f \"node src/server.js\")",
+      "Bash(node src/server.js)",
+      "Bash(curl -s \"http://localhost:8080/api/v1/standings\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); east=d['data']['east']; west=d['data']['west']; print\\(f'East teams: {len\\(east\\)}, West teams: {len\\(west\\)}'\\); [print\\(f\\\\\"  {t['rank']}. {t['name']} {t['wins']}-{t['losses']}\\\\\"\\) for t in east[:5]]\")",
+      "Bash(python3 -c ' *)",
+      "Bash(netstat -ano)",
+      "PowerShell(Stop-Process *)",
+      "Bash(curl -s \"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?groups=1&seasontype=3\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(curl -s \"https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?seasontype=3\")",
+      "Bash(curl -s \"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?groups=1&seasontype=3&limit=50\")",
+      "Bash(curl -s \"http://localhost:8080/api/v1/playoffs/bracket\")",
+      "Bash(taskkill *)"
+    ]
+  }
+}

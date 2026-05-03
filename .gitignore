@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (NEVER commit secrets)
+.env
+backend/.env
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+backend/data/*.db
+backend/data/*.sqlite
+
+# IDE
+.vscode/settings.json
+.idea/
